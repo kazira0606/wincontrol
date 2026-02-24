@@ -2,9 +2,9 @@
 
 Windows GUI自动化Agent客户端，通过多模态大模型理解屏幕内容，结合OmniParser的YOLO检测定位界面元素，实现自动化的鼠标键盘操作。可以根据用户指令完成多步骤任务。
 
-![界面截图](./ui.png)
+![界面截图](./UI.png)
 
-## 能做什么
+## 功能
 
 - 理解屏幕截图，识别当前界面状态
 - 定位按钮、输入框等可交互元素
@@ -13,13 +13,13 @@ Windows GUI自动化Agent客户端，通过多模态大模型理解屏幕内容�
 
 ## 架构
 
-多模态大模型（视觉+推理） <-> MCP Host（GUI客户端） <-> MCP Server（设备控制服务端）
-                                                        ^
-                                                        |
-                                                OmniParser（YOLO检测GUI元素）
-                                                        |
-                                                        v
-                                                屏幕/鼠标/键盘控制
+- 多模态大模型（视觉+推理）
+- MCP Host（GUI客户端）
+- MCP Server（设备控制服务端）
+- OmniParser（YOLO检测GUI元素）
+- 屏幕/鼠标/键盘控制
+
+数据流：大模型 <-> Host <-> Server <-> OmniParser <-> 设备控制
 
 ## 目录结构
 
