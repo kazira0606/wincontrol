@@ -4,7 +4,7 @@ Windows GUI自动化Agent客户端，通过多模态大模型理解屏幕内容�
 
 ![界面截图](./UI.png)
 
-## 功能
+## 能做什么
 
 - 理解屏幕截图，识别当前界面状态
 - 定位按钮、输入框等可交互元素
@@ -19,11 +19,7 @@ Windows GUI自动化Agent客户端，通过多模态大模型理解屏幕内容�
 - OmniParser（YOLO检测GUI元素）
 - 屏幕/鼠标/键盘控制
 
-数据流：大模型 <-> Host <-> Server  <-> 设备控制
-                             ^
-                             |
-                             v
-                        OmniParser
+数据流：大模型 <-> Host <-> Server -> OmniParser / 设备控制
 
 ## 目录结构
 
