@@ -21,6 +21,10 @@ Windows GUI自动化Agent客户端，通过多模态大模型理解屏幕内容�
 
 数据流：大模型 <-> Host <-> Server -> OmniParser / 设备控制
 
+## 演示视频
+
+[演示视频](https://www.bilibili.com/video/BV1A6fUB4ERo)
+
 ## 目录结构
 
 ```
