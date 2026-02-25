@@ -13,13 +13,11 @@ Windows GUI自动化Agent客户端，通过多模态大模型理解屏幕内容�
 
 ## 架构
 
-- 多模态大模型（视觉+推理）
-- MCP Host（GUI客户端）
-- MCP Server（设备控制服务端）
-- OmniParser（YOLO检测GUI元素）
-- 屏幕/鼠标/键盘控制
+- 多模态大模型（视觉+推理+模糊定位）
+- wincontrol_gui（GUI客户端 + MCP Host）
+- wincontrol_server（MCP Server + OmniParser）
 
-数据流：大模型 <-> Host <-> Server -> OmniParser / 设备控制
+数据流：大模型 <-> Host <-> Server <-> OmniParser / 设备控制
 
 ## 演示视频
 
